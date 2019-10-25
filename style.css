@@ -4,86 +4,75 @@
     background-color: #2893CB;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border: 10px solid #217CAC;
-  margin: 0;
+    border: 10px solid #217CAC;
+    margin: 0;
   }
    
   .title{
     margin: 9% 0 0 25%;
     font-size: 24px;
   }
- ul{    
+  ul{    
    list-style: none;
    font-size: 0; 
    padding: 0;
    width: 50%;
    border: 2px solid white;
    margin: 2% auto auto 25%;  
+  }
 
-   }
-
- li{
+  li{
    display: inline-block;
    font-size: 18px;
    border: 2px solid white;
    padding: 14px 0px 0 0px;
    width: 25%;
    box-sizing: border-box; 
- }
- li:nth-child(1){
+  }
+  li:nth-child(1){
    width: 50%;
    background-color: #2793CC;
+  }
 
-  
- }
-
- li:nth-child(2){
-    background-color: #24BDC8;
-   
-}
-li:nth-child(3){
-  
-  background-color: #986F95;
-}
-li:nth-child(4){
-  
-  background-color: #C85442;
-}
-li:nth-child(5){
-  
-  background-color: #E57247;
-}
-li:nth-child(6){
-  
-  background-color: #FFCB5D;
-}
-li:nth-child(7){
-  
-  background-color: #93C395;
-}
-li:nth-child(8){
-  
-  background-color: #609394;
-}
- li:nth-child(9){
+  li:nth-child(2){
+   background-color: #24BDC8;   
+  }
+  li:nth-child(3){
+   background-color: #986F95;
+  }
+  li:nth-child(4){  
+   background-color: #C85442;
+  }
+  li:nth-child(5){  
+   background-color: #E57247;
+  }
+  li:nth-child(6){  
+   background-color: #FFCB5D;
+  }
+  li:nth-child(7){  
+   background-color: #93C395;
+  }
+  li:nth-child(8){  
+   background-color: #609394;
+  }
+  li:nth-child(9){
    width: 50%;
    background-color: #CF7294;
- }
- li:nth-child(10){
-  
-  background-color: #288D65;
-}
- li:nth-child(11){
-  width: 100%;
-  background-color: #636996;
-}
-span{
-  display: block;
-  text-align: center;
-  line-height: 25px;
-  padding-bottom: 11px;
-  overflow-wrap: break-word;
-}
+  }
+  li:nth-child(10){
+   background-color: #288D65;
+  }
+  li:nth-child(11){
+   width: 100%;
+   background-color: #636996; 
+  }
+  span{
+   display: block;
+   text-align: center;
+   line-height: 25px;
+   padding-bottom: 11px;
+   overflow-wrap: break-word;
+  }
 
 .deg{
   opacity: 0.7;
