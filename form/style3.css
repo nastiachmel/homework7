@@ -1,0 +1,102 @@
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  background-color: #bac5db;
+
+
+}
+.letter-form{
+  background-color: #353a45;
+  padding: 85px 51px 65px 51px;
+max-width:  666px;
+box-sizing: border-box;
+margin: 100px auto 0 auto;
+border-radius: 20px;
+display: flex;
+position: absolute;
+left: 27%;
+}
+
+.letter-form .form{
+  display: flex;
+  width: 100%;
+  margin: 26% 0 0 0;
+}
+.letter-form .form [type="email"]{
+margin: 0 13px 0 0;
+  flex-grow: 1;
+  height: 55px;
+  padding: 0 82px 0px 15px;
+  border: none;
+  border-radius: 10px;
+
+}
+input[type="submit"]{
+  background-color: #538fff;
+  height: 55px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+input[type="submit"]:hover{
+  background-color: hsl(219, 95%, 60%);
+ 
+}
+.letter-form .icon{
+  width: 92px;
+  height: 92px;
+  position: absolute;
+  top: -46px;
+  left: 50%;
+  margin-left: -46px;
+  border-radius: 50%;
+  background: #589ddd;
+background: -moz-linear-gradient(left,  #589ddd 1%, #8a78c3 100%);
+background: -webkit-linear-gradient(left,  #589ddd 1%,#8a78c3 100%);
+background: linear-gradient(to right,  #589ddd 1%,#8a78c3 100%);
+box-shadow: 2px 4px 6px;
+
+}
+ .img{
+  position: absolute;
+  top: 7%;
+  left: 6%;
+ }
+
+h1{
+ 
+  color: #538fff;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 5%;
+  
+  
+ }
+ .h1{
+   font-size: 22px;
+   color: white;
+   position: absolute;
+   top: 26%;
+   left: 0%;
+   text-align: center;
+font-weight: 400;
+width: 100%;
+letter-spacing: 0px;
+ }
+ span{
+   color: #747983;
+   font-size: 20px;
+   font-style: italic;
+   position: absolute;
+    top: 88%;
+    text-align: center;
+    left: 27%;
+  
+ }
